@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Project2_bomb</title>
+	<style>
+#box{
+    width:800px;
+    height:400px;
+    /*border:1px gray solid;*/
+    background-color:pink;
+    position:absolute;
+    /*元素居中，不受窗口变化大小影响*/
+    left:50%;
+    top:50%;
+    margin-left:-400px;
+    margin-top:-200px;
+}
+#box>div{
+    border:1px black solid;
+    position:absolute;
+    perspective:800px;
+    /*background-image:url("7.jpg");*/
+    transform-style:preserve-3d;
+
+}
+
+	</style>
+</head>
+<body>
+
+	<div id="box"></div>
+	<script type="text/javascript">
+		var x=8;
+		var y=6;
+		for(var i=0;i<x;i++){
+			for(var j=0;j<y;j++){
+				var box=document.getElementById('box');
+				var oDiv=document.createElement('div');
+				oDiv.style.width=(box.clientWidth/x)+'px';
+				oDiv.style.height=(box.clientHeight/y)+'px';
+				oDiv.style.top=(box.clientHeight/y)*j+'px';
+				oDiv.style.left=(box.clientWidth/x)*i+'px';
+				oDiv.style.backgroundImage='url("bg.jpg")';
+				oDiv.style.backgroundPositionX=-(box.clientWidth/x)*i+'px';
+				oDiv.style.backgroundPositionY=-(box.clientHeight/y)*j+'px';
+				box.appendChild(oDiv);
+
+
+			}
+		}
+    	    var allDiv=box.childNodes;
+    	    //alert(allDiv);
+    	    box.onclick=function(){
+            for(var i=0;i<allDiv.length;i++){
+            	allDiv[i].style.transform= 'translateX('+(Math.random()*300-150)+'px) translateY('+(Math.random()*300-150)+'px) translateZ('+(Math.random()*300-150)+'px) perspective(800px) rotate3d(1,1,1,'+(Math.random()*360-180)+'deg) scale('+(Math.random()*1+1)+')' ;
+            	allDiv[i].style.transitionDuration=(Math.random()*1+0.5)+'s';
+            }
+        }
+
+
+	</script>
+
+	
+</body>
+</html>
