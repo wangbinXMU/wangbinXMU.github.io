@@ -39,7 +39,7 @@ disqus_shortname:   taylantatli
 #bing-verify:
 email:              34320161153067@stu.xmu.edu.cn
 #twitter:            username
-zhihu:              people/wang-wang-bin-92/activities
+#zhihu:              people/wang-wang-bin-92/activities
 github-url:         wangbinXMU
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
@@ -52,7 +52,7 @@ github-url:         wangbinXMU
 #foursquare:        username
 steam:              wangbinXMU
 #dribbble:          username
-#youtube:           username
+youtube:            people/wang-wang-bin-92/activities
 #youtube-channel:   channel
 #soundcloud:        username
 weibo:              5447087446/profile?topnav=1&wvr=6&is_all=1
