@@ -1,4 +1,14 @@
 # Site navigation links
 
+- title: Home
+  url: http://wangbinxmu.com
+
 - title: Projects
   url: /projects/
+
+- title: About
+  url: /about/
+
+- title: Post
+  url: /posts/
+
