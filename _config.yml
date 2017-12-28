@@ -1,7 +1,7 @@
 # Site
-title:              WangBin's Blog
-bio:                '俊采星驰'
-description:        "Lucky Zone"
+title:              WangBin
+bio:                '暖'
+description:        "凛冬之风~"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
@@ -37,7 +37,7 @@ disqus_shortname:   taylantatli
   #ad-client:
   #ad-slot:
 #bing-verify:
-email:              34320161153067@stu.xmu.edu.cn
+#email:              34320161153067@stu.xmu.edu.cn
 #twitter:            username
 #zhihu:              people/wang-wang-bin-92/activities
 github-url:         wangbinXMU
@@ -55,7 +55,7 @@ steam:              wangbinXMU
 youtube:            people/wang-wang-bin-92/activities
 #youtube-channel:   channel
 #soundcloud:        username
-weibo:              5447087446/profile?topnav=1&wvr=6&is_all=1
+#weibo:              5447087446/profile?topnav=1&wvr=6&is_all=1
 #flickr:            username
 #codepen:           username
 #keybase:           username
