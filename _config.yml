@@ -1,11 +1,11 @@
 # Site
-title:              WangBin
-bio:                '暖'
-description:        "凛冬之风~"
+title:              '暖'
+bio:                "迷茫的时候，要记得向前走"
+description:        "To be perfect"
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo.png'
-background:         'assets/img/placeholder-big.jpg'
+logo:               'assets/img/logo1.png'
+background:         'assets/img/bg.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://wangbinxmu.github.io
